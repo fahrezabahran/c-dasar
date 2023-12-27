@@ -7,7 +7,10 @@ namespace CSharpBasic
         private static void Main()
         {
             ClassRef classRef = new();
-            classRef.RunRef();
+            classRef.Run();
+
+            ClassDataType classDataType = new();
+            classDataType.Run();
         }
 
 

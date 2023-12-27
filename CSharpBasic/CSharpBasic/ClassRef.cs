@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpBasic
 {
-    public class ClassRef
+    internal class ClassRef
     {
-        public void RunRef()
+        public void Run()
         {
             int nilai = 10;
             Console.WriteLine("Nilai sebelum pemanggilan metode: " + nilai);

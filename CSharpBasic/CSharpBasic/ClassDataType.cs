@@ -8,5 +8,11 @@ namespace CSharpBasic
 {
     internal class ClassDataType
     {
+        public void Run()
+        {
+            int x = 100;
+
+            Console.WriteLine(x);
+        }
     }
 }
